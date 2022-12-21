@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354134322952FCE900745F18 /* IMG_0637.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 354134312952FCE900745F18 /* IMG_0637.PNG */; };
 		35FEE0D3294E0F100070DB1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FEE0D2294E0F100070DB1D /* AppDelegate.swift */; };
 		35FEE0D5294E0F100070DB1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FEE0D4294E0F100070DB1D /* SceneDelegate.swift */; };
 		35FEE0D7294E0F100070DB1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FEE0D6294E0F100070DB1D /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		354134312952FCE900745F18 /* IMG_0637.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_0637.PNG; path = ../../Desktop/IMG_0637.PNG; sourceTree = "<group>"; };
 		35FEE0CF294E0F100070DB1D /* KoreaDeliveryServiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoreaDeliveryServiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FEE0D2294E0F100070DB1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35FEE0D4294E0F100070DB1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				35FEE0D2294E0F100070DB1D /* AppDelegate.swift */,
 				35FEE0D4294E0F100070DB1D /* SceneDelegate.swift */,
 				35FEE0D6294E0F100070DB1D /* ViewController.swift */,
+				354134312952FCE900745F18 /* IMG_0637.PNG */,
 				35FEE0D8294E0F100070DB1D /* Main.storyboard */,
 				35FEE0DB294E0F110070DB1D /* Assets.xcassets */,
 				35FEE0DD294E0F110070DB1D /* LaunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 				35FEE0DF294E0F110070DB1D /* LaunchScreen.storyboard in Resources */,
 				35FEE0DC294E0F110070DB1D /* Assets.xcassets in Resources */,
 				35FEE0DA294E0F100070DB1D /* Main.storyboard in Resources */,
+				354134322952FCE900745F18 /* IMG_0637.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,11 +443,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KoreaDeliveryServiceApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,11 +472,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KoreaDeliveryServiceApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
